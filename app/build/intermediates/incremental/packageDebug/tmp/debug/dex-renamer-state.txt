@@ -1,0 +1,4 @@
+#Mon Jul 01 14:35:56 SGT 2019
+base.0=E\:\\Project\\canary\\MVVMSampleApp\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

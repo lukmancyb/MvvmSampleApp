@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Project\\canary\\MVVMSampleApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_signup.xml",
+        "source": "E:\\Project\\canary\\MVVMSampleApp\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "E:\\Project\\canary\\MVVMSampleApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "E:\\Project\\canary\\MVVMSampleApp\\app\\src\\main\\res\\layout\\activity_login.xml"
+    }
+]

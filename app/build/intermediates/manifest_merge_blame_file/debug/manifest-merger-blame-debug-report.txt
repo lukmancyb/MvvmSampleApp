@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mvvmsampleapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:5:5-78
+11-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:6:5-66
+12-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <application
+14-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:8:5-29:19
+15        android:name="com.example.mvvmsampleapp.MvvmApplication"
+15-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:9:13-44
+16        android:allowBackup="true"
+16-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:10:13-39
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0-rc01] C:\Users\Diskominfo Loteng\.gradle\caches\transforms-2\files-2.1\2981fa83872028e8379a21d5695728c0\core-1.1.0-rc01\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:11:13-47
+20        android:label="@string/app_name"
+20-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:12:13-45
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:13:13-58
+22        android:supportsRtl="true"
+22-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:14:13-39
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:15:13-44
+25        <activity android:name="com.example.mvvmsampleapp.ui.home.MainActivity" >
+25-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:17:9-19:20
+25-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:17:19-55
+26        </activity>
+27        <activity android:name="com.example.mvvmsampleapp.ui.auth.SignupActivity" >
+27-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:20:9-21:20
+27-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:20:19-57
+28        </activity>
+29        <activity android:name="com.example.mvvmsampleapp.ui.auth.LoginActivity" >
+29-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:22:9-28:20
+29-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:22:19-56
+30            <intent-filter>
+30-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:23:13-27:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:24:17-68
+31-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:24:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:26:17-76
+33-->E:\Project\canary\MVVMSampleApp\app\src\main\AndroidManifest.xml:26:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <service
+37-->[androidx.room:room-runtime:2.1.0] C:\Users\Diskominfo Loteng\.gradle\caches\transforms-2\files-2.1\b73d0e36d444f50bdacde435176f512b\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+38            android:name="androidx.room.MultiInstanceInvalidationService"
+38-->[androidx.room:room-runtime:2.1.0] C:\Users\Diskominfo Loteng\.gradle\caches\transforms-2\files-2.1\b73d0e36d444f50bdacde435176f512b\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+39            android:exported="false" />
+39-->[androidx.room:room-runtime:2.1.0] C:\Users\Diskominfo Loteng\.gradle\caches\transforms-2\files-2.1\b73d0e36d444f50bdacde435176f512b\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+40
+41        <provider
+41-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Diskominfo Loteng\.gradle\caches\transforms-2\files-2.1\55f1d9d3788a8aa206494966f058abe6\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+42            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+42-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Diskominfo Loteng\.gradle\caches\transforms-2\files-2.1\55f1d9d3788a8aa206494966f058abe6\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+43            android:authorities="com.example.mvvmsampleapp.lifecycle-process"
+43-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Diskominfo Loteng\.gradle\caches\transforms-2\files-2.1\55f1d9d3788a8aa206494966f058abe6\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+44            android:exported="false"
+44-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Diskominfo Loteng\.gradle\caches\transforms-2\files-2.1\55f1d9d3788a8aa206494966f058abe6\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+45            android:multiprocess="true" />
+45-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Diskominfo Loteng\.gradle\caches\transforms-2\files-2.1\55f1d9d3788a8aa206494966f058abe6\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+46    </application>
+47
+48</manifest>
